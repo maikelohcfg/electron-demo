@@ -1,0 +1,12 @@
+## setup chrome with debug port
+chrome.exe --remote-debugging-port=9222
+
+### Steps to recreate
+1. Chrome opened with debug flag
+2. npm i
+3. npm start
+4. click Run Trace test
+5. open file.zip inside project root using https://trace.playwright.dev/next/
+
+### Expected result
+Actions are empty in the recorded trace.
